@@ -1,7 +1,7 @@
 
 "use strict";
-const target ='This is genetic algo on JavaScript!'
-
+const target = document.querySelector('#target').innerHTML;
+console.log(target);
 /**Phrase Class */
 class Phrase{
 
@@ -55,13 +55,10 @@ class Phrase{
         }
     }
 
-
-
-
 }
 
 //Exports
-module.exports = {
-    phrase:Phrase,
-    target:target,
-};
+// module.exports = {
+//     phrase:Phrase,
+//     target:target,
+// };
